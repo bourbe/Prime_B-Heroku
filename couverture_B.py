@@ -43,8 +43,8 @@ st.write('---')
 # Loads the PRIME BATIMENT Dataset
 # Faire une liste de types de valeurs manquantes
 #path_B = 'C:/Users/emera/Web_app1/' 
-path_model_B = 'model_pkl_B/'
-path_image_B='Images_B/'
+path_model_B = '/model_pkl_B/'
+path_image_B='/Images_B/'
 missing_values = ["n/a", "na", "--"]
 data_B = pd.read_csv('data_B0.csv', sep=';',decimal=",",encoding = "ISO-8859-1",engine='python', na_values = missing_values)
 data_B['Date_naissance'] = data_B["Date_naissance"].astype(str).apply(lambda x: int(x.split("/")[-1])if x!='nan'else np.nan)
