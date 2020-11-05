@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 import altair as alt
 import matplotlib
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 #from matplotlib.colors import LinearSegmentedColormap
 from sklearn import metrics
 #from sklearn.decomposition import PCA
