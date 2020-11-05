@@ -3,7 +3,7 @@
 
 # In[1]:
 
-import cv2
+#import cv2
 import shap
 import pickle 
 from PIL import Image 
@@ -12,14 +12,14 @@ import numpy as np
 import pandas as pd
 import altair as alt
 import matplotlib
-import matplotlib.pyplot as plt
-from matplotlib.colors import LinearSegmentedColormap
+#import matplotlib.pyplot as plt
+#from matplotlib.colors import LinearSegmentedColormap
 from sklearn import metrics
-from sklearn.decomposition import PCA
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.preprocessing._label import LabelEncoder 
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+#from sklearn.decomposition import PCA
+#from sklearn.ensemble import RandomForestRegressor
+#from sklearn.preprocessing._label import LabelEncoder 
+#from sklearn.model_selection import train_test_split
+#from sklearn.linear_model import LinearRegression
 matplotlib.use('Agg')
 plt.style.use('ggplot')
 
