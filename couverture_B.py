@@ -94,8 +94,8 @@ def input_datae_B_features():
     zip = st.sidebar.number_input('zip',data_B_X.zip.min(), data_B_X.zip.max(), data_B_X.zip.min())
     
     #slider variable
-    capbat = st.sidebar.slider('capbat', data_B_X.capbat.min(), data_B_X.capbat.max(), data_B_X.capbat.mean())
-    capcont = st.sidebar.slider('capcont', data_B_X.capcont.min(), data_B_X.capcont.max(), data_B_X.capcont.mean())
+    capbat = st.sidebar.slider('capbat', float(data_B_X.capbat.min()), float(data_B_X.capbat.max()), float(data_B_X.capbat.mean()))
+    capcont = st.sidebar.slider('capcont', float(data_B_X.capcont.min()), float(data_B_X.capcont.max()), float(data_B_X.capcont.mean()))
       
     columns_datae_B = {'typpos':typpos,
             'nbpiece_Eth': nbpiece_Eth,
