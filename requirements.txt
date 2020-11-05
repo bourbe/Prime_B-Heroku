@@ -1,0 +1,11 @@
+shap== 0.36.0
+streamlit==0.67.1
+numpy== 1.18.5
+pandas== 1.0.5
+altair==4.1.0
+matplotlib==3.2.2
+seaborn==0.10.1
+scikit-learn==0.23.1
+plotly==4.10.0
+opencv-python==4.4.0.44
+pillow ==7.2.0
